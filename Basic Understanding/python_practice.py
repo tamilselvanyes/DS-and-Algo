@@ -57,3 +57,21 @@ print(me.getClassiness())
 me.addItem("bowtie")
 # Should be 15
 print(me.getClassiness())
+
+
+input = "AbcaZeoB"
+
+
+vowel = ["a", "e", "i", "o", "u"]
+
+output = []
+
+for num in range(0, len(input)):
+    if input[num] in vowel:
+        output.append("#")
+    elif (input[num].isupper()):
+        pass
+    else:
+        output.append(input[num])
+
+print("".join(output+output))
